@@ -1,0 +1,45 @@
+---
+import Header from "../components/header.astro"
+const pageTitle = 'About AF';
+---
+
+    <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <title>{pageTitle}</title>
+    </head>
+    <body>
+        <div class="flex-none">
+            <Header />
+        </div>
+        <h1>Autofletes<span>Franco</span></h1>
+        <p>Agencia de Transporte de Carga 🚚</p>
+    </body>
+    </html>
+
+
+    <style>
+
+        h1{
+            font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 1em;
+
+        }
+
+        p{
+            font-size: 2rem;
+		font-weight: 600;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 1em;
+
+
+        }
+
+
+    </style>
